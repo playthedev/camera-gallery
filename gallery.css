@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+C:\Users\arish personal\FULL PROJECTS\camera gallery\gallery.css
+
+
+.back{
+    color:white;
+    font-size:1.5rem;
+    width:5rem;
+    height:5rem;
+    background-color: black;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    position:fixed;
+    right:5rem;
+    bottom:4rem;
+}
+.gallery-cont{
+    width:100vw;
+    height:100vh;
+    background-color: #bdc3c7;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.media-cont{
+    height:15rem;
+    width:15rem;
+    border:solid 10px white;
+    margin:2rem;
+}
+.media{
+    height:10rem;
+    background-color: aqua;
+}
+.media>*{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+}
+.dwld{
+   background-color: black;
+   cursor:pointer;
+}
+.delete{
+    background-color: red;
+    cursor:pointer;
+}
+.action-btn{
+    height: 2rem;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
